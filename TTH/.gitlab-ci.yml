@@ -1,0 +1,320 @@
+stages:
+  - compile
+  - test_nano
+  - test_nano_post
+  - test_unit
+  - test_tthbb13
+  - test_sparsinator
+
+before_script:
+  - source /cvmfs/grid.cern.ch/etc/profile.d/setup-cvmfs-ui.sh
+  - source /cvmfs/cms.cern.ch/cmsset_default.sh
+  - export CI_HOME="$( pwd )"
+  - git config --global user.name 'Homer Simpson'       ## dummy name
+  - git config --global user.email 'fake@mail.yes'      ## does not
+  - git config --global user.github 'homerJay'          ## matter
+  - git submodule update --init --recursive
+  - export CMSSW_GIT_REFERENCE="/cvmfs/cms.cern.ch/cmssw.git.daily"
+  - export SCRAM_ARCH="slc6_amd64_gcc700"
+  - export CMSSW_VERSION="CMSSW_10_2_15"
+  - export CMS_PATH=/cvmfs/cms-ib.cern.ch/week0 #https://gitlab.cern.ch/cms-nanoAOD/nanoAOD-integration/blob/master/scripts/restore_cmssw.sh#L14
+  - cd ..
+  - cd $CI_HOME
+  - mkdir -p ~/.ssh
+  - echo -e "Host *\n\tGSSAPIDelegateCredentials yes\n\tGSSAPITrustDNS yes\n\n" > ~/.ssh/config
+  - echo "${KRB_PASSWORD}" | kinit -f ${KRB_USERNAME}@CERN.CH
+  - klist
+  - scp -v -o StrictHostKeyChecking=no ${KRB_USERNAME}@lxplus.cern.ch:~/x509 ~/x509
+  - export X509_USER_PROXY=~/x509
+  - voms-proxy-info --all
+  - ls -al
+
+compile:
+  tags: [ cvmfs ]
+  stage: compile
+  script:
+    - cd $CI_HOME/..
+    - rm -Rf $CMSSW_VERSION
+    - scramv1 project CMSSW $CMSSW_VERSION
+    - ls -al
+    - cd $CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - git cms-init
+    - git clone https://github.com/cms-nanoAOD/nanoAOD-tools.git PhysicsTools/NanoAODTools 
+    - git clone https://gitlab.cern.ch/Zurich_ttH/MEIntegratorStandalone.git -b 10_2_X TTH/MEIntegratorStandalone
+    - git clone https://gitlab.cern.ch/algomez/CommonClassifier.git TTH/CommonClassifier -b 10_2_X
+    - git clone https://gitlab.cern.ch/kit-cn-cms-public/RecoLikelihoodReconstruction.git TTH/RecoLikelihoodReconstruction
+    - cp -R TTH/MEIntegratorStandalone/libs/* $CMSSW_BASE/lib/$SCRAM_ARCH/
+    - scram setup lhapdf
+    - scram setup TTH/MEIntegratorStandalone/deps/gsl.xml
+    - scram b -j4
+    - cd $CMSSW_BASE/..
+    - tar -czf cmssw.tgz $CMSSW_VERSION
+    - du -csh cmssw.tgz
+    - mv $CI_HOME/../cmssw.tgz $CI_HOME
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+  artifacts:
+    paths:
+      - cmssw.tgz
+    name: "${CI_BUILD_NAME}_${CI_BUILD_REF_NAME}"
+
+test_nano_data:
+  tags: [ cvmfs ]
+  stage: test_nano
+  script:
+    - cd $CI_HOME/..
+    - tar xfz $CI_HOME/cmssw.tgz
+    - cd $CI_HOME/../$CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - cd $CI_HOME
+    - cd $CMSSW_BASE/src
+    - INPUT="MuonEG_Run2017B_31Mar2018-v1_MINIAOD_200evts.root"
+    - scp ${KRB_USERNAME}@lxplus.cern.ch:/afs/cern.ch/user/a/algomez/public/fortthbbme/${INPUT} .
+    - cmsDriver.py nano_data --fileout=nano_data_singleMu.root -s NANO --filein file:$INPUT -n 50 --eventcontent NANOAOD --datatier NANOAOD --data --conditions auto:run2_data --era Run2_2017,run2_nanoAOD_94XMiniAODv2
+    - mv nano_data_singleMu.root $CI_HOME/
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+  artifacts:
+    paths:
+     - nano_data_singleMu.root
+    name: "${CI_BUILD_NAME}_${CI_BUILD_REF_NAME}"
+    expire_in: 1 week
+
+test_nano_ttH:
+  tags: [ cvmfs ]
+  stage: test_nano
+  script:
+    - cd $CI_HOME/..
+    - tar xfz $CI_HOME/cmssw.tgz
+    - cd $CI_HOME/../$CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - cd $CI_HOME
+    - cd $CMSSW_BASE/src
+    - INPUT="ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8_PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v1_MINIAOD_200evts.root"
+    - scp ${KRB_USERNAME}@lxplus.cern.ch:/afs/cern.ch/user/a/algomez/public/fortthbbme/${INPUT} .
+    - cmsDriver.py nano_data --fileout=nano_mc_ttH.root -s NANO --filein file:$INPUT -n 50 --eventcontent NANOAODSIM --datatier NANOAODSIM --mc --conditions auto:phase1_2017_realistic --era Run2_2017,run2_nanoAOD_94XMiniAODv1
+    - mv nano_mc_ttH.root $CI_HOME/
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+  artifacts:
+    paths:
+      - nano_mc_ttH.root
+    name: "${CI_BUILD_NAME}_${CI_BUILD_REF_NAME}"
+    expire_in: 1 week
+
+test_nano_combined_workflow:
+  tags: [ cvmfs ]
+  stage: test_nano
+  allow_failure: true
+  script:
+    - cd $CI_HOME/..
+    - tar xfz $CI_HOME/cmssw.tgz
+    - cd $CI_HOME/../$CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - cd $CI_HOME
+    - cd $CMSSW_BASE/src/TTH/MEAnalysis/crab_nano
+    - python heppy_crab_script.py --test
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+
+
+test_nano_postproc:
+  tags: [ cvmfs ]
+  stage: test_nano_post
+  dependencies:
+    - compile
+    - test_nano_data
+    - test_nano_ttH
+  script:
+    - cd $CI_HOME/..
+    - tar xfz $CI_HOME/cmssw.tgz
+    - cd $CI_HOME/../$CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - cd $CI_HOME
+    - cd $CMSSW_BASE/src/TTH/MEAnalysis
+    - python test/test_nano_postproc.py --testFile $CI_HOME/nano_mc_ttH.root --isMC
+    - python test/test_nano_postproc.py --testFile $CI_HOME/nano_data_singleMu.root
+    - mv nano_data_singleMu_postprocessed.root $CI_HOME/
+    - mv nano_mc_ttH_postprocessed.root $CI_HOME/
+
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+  artifacts:
+    paths:
+      - nano_data_singleMu_postprocessed.root
+      - nano_mc_ttH_postprocessed.root
+    name: "${CI_BUILD_NAME}_${CI_BUILD_REF_NAME}"
+    expire_in: 1 week
+
+
+
+test_unit_Plotting:
+  tags: [ cvmfs ]
+  stage: test_unit
+  script:
+    - cd $CI_HOME/..
+    - tar xfz $CI_HOME/cmssw.tgz
+    - cd $CI_HOME/../$CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - cd $CI_HOME
+    - cd $CMSSW_BASE/src/TTH
+    - python $CMSSW_BASE/src/TTH/Plotting/test/test_config.py
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+
+test_tth_sl:
+  tags: [ cvmfs ]
+  stage: test_tthbb13
+  dependencies:
+    - compile
+    - test_nano_postproc
+  script:
+    - cd $CI_HOME/..
+    - tar xfz $CI_HOME/cmssw.tgz
+    - cd $CI_HOME/../$CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - cd $CI_HOME
+    - cd $CMSSW_BASE/src/TTH/
+    - python MEAnalysis/test/test_tthbb13_ttH.py $CI_HOME/nano_mc_ttH_postprocessed.root
+    - python MEAnalysis/test/validationHistos.py Output_ttH/tree.root
+    - ls -al
+    - tar -czf plots_tth.tgz *.pdf Output_ttH/tree.root
+    - du -csh plots_tth.tgz
+    - mv plots_tth.tgz $CI_HOME/
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+  artifacts:
+    paths:
+      - plots_tth.tgz
+    name: "${CI_BUILD_NAME}_${CI_BUILD_REF_NAME}"
+
+test_tth_fh:
+  tags: [ cvmfs ]
+  stage: test_tthbb13
+  allow_failure: true
+  dependencies:
+    - compile
+    - test_nano_postproc
+  script:
+    - cd $CI_HOME/..
+    - tar xfz $CI_HOME/cmssw.tgz
+    - cd $CI_HOME/../$CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - cd $CI_HOME
+    - cd $CMSSW_BASE/src/TTH/
+    - python MEAnalysis/test/test_tthbb13_ttH.py $CI_HOME/nano_mc_ttH_postprocessed.root --testFH
+    - python MEAnalysis/test/validationHistos.py Output_ttH/tree.root
+    - ls -al
+    - tar -czf plots_tth.tgz *.pdf Output_ttH/tree.root
+    - du -csh plots_tth.tgz
+    - mv plots_tth.tgz $CI_HOME/
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+  artifacts:
+    paths:
+      - plots_tth.tgz
+    name: "${CI_BUILD_NAME}_${CI_BUILD_REF_NAME}"
+
+
+test_data:
+  tags: [ cvmfs ]
+  stage: test_tthbb13
+  dependencies:
+    - compile
+    - test_nano_postproc
+  allow_failure: false
+  script:
+    - cd $CI_HOME/..
+    - tar xfz $CI_HOME/cmssw.tgz
+    - cd $CI_HOME/../$CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - cd $CI_HOME
+    - cd $CMSSW_BASE/src/TTH
+    - python MEAnalysis/test/test_tthbb13_data.py $CI_HOME/nano_data_singleMu_postprocessed.root
+    - python MEAnalysis/test/validationHistos.py Output_data/tree.root
+    - ls -al
+    - tar -czf plots_singlemuon.tgz *.pdf Output_data/tree.root
+    - du -csh plots_singlemuon.tgz
+    - mv plots_singlemuon.tgz $CI_HOME/
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+  artifacts:
+    paths:
+      - plots_singlemuon.tgz
+    name: "${CI_BUILD_NAME}_${CI_BUILD_REF_NAME}"
+
+test_tth_sparsinator:
+  tags: [ cvmfs ]
+  stage: test_sparsinator
+  allow_failure: true
+  script:
+    - cd $CI_HOME/..
+    - tar xfz $CI_HOME/cmssw.tgz
+    - cd $CI_HOME/../$CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - cd $CI_HOME
+    - cd $CMSSW_BASE/src/TTH
+    - tar xfz $CI_HOME/plots_tth.tgz
+    - ls -al
+    - FILE_NAMES=Output_ttH/tree.root DATASETPATH=ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8 SKIP_EVENTS=0 MAX_EVENTS=5000 ANALYSIS_CONFIG=MEAnalysis/test/config_test.cfg python Plotting/python/joosep/sparsinator.py
+    - mv out.root $CI_HOME/sparse_tth.root
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+  artifacts:
+    paths:
+      - sparse_tth.root
+    name: "${CI_BUILD_NAME}_${CI_BUILD_REF_NAME}"
+
+test_sparsinator_postproc:
+  tags: [ cvmfs ]
+  stage: test_sparsinator
+  allow_failure: true
+  script:
+    - cd $CI_HOME/..
+    - tar xfz $CI_HOME/cmssw.tgz
+    - cd $CI_HOME/../$CMSSW_VERSION/src
+    - eval `scramv1 runtime -sh`
+    - cd $CI_HOME
+    - cd $CMSSW_BASE/src/TTH
+    - python Plotting/test/test_sparsinator.py --sample ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8
+    - mv out.root $CI_HOME/sparse_tth.root
+  only:
+      changes:
+          - MEAnalysis/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - Plotting/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+          - NanoAODTools/*/*.{c,cc,cpp,py,h,sh,xml,so,cfg}
+  artifacts:
+    paths:
+      - sparse_tth.root
+    name: "${CI_BUILD_NAME}_${CI_BUILD_REF_NAME}"

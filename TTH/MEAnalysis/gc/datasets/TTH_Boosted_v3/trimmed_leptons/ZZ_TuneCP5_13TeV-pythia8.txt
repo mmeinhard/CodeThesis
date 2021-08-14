@@ -1,0 +1,2 @@
+[ZZ_TuneCP5_13TeV-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/ZZ_TuneCP5_13TeV-pythia8/job_3_out.root = 175581

@@ -1,0 +1,48 @@
+{
+    "ttHToNonbb": {
+        "ds": "/ttHToNonbb_M125_TuneCP5_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 7,
+        "runtime": 24,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttHTobb": {
+        "ds": "/ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 10,
+        "runtime": 24,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttHTobb_newPU": {
+        "ds": "/ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 10,
+        "runtime": 24,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttHTobb_sl":{
+        "ds": "/ttHTobb_ttToSemiLep_M125_TuneCP5_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 100,
+        "runtime": 24,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttHTobb_dl":{
+        "ds": "/ttHTobb_ttTo2L2Nu_M125_TuneCP5_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 2,
+        "runtime": 24,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    }
+}
+

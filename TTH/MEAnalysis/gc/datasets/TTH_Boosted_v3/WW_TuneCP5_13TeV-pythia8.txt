@@ -1,0 +1,3 @@
+[WW_TuneCP5_13TeV-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/WW_TuneCP5_13TeV-pythia8/job_462_out.root = 146
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/WW_TuneCP5_13TeV-pythia8/job_463_out.root = 271

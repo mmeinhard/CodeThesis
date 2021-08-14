@@ -1,0 +1,218 @@
+{
+    "TTbar_dl": {
+        "ds": "/TTTo2L2Nu_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 150,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_fsr_down": {
+        "ds": "/TT_TuneCUETP8M2T4_13TeV-powheg-fsrdown-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_fsr_up1": {
+        "ds": "/TT_TuneCUETP8M2T4_13TeV-powheg-fsrup-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_fsr_up2": {
+        "ds": "/TT_TuneCUETP8M2T4_13TeV-powheg-fsrup-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_hdamp_down1": {
+        "ds": "/TT_hdampDOWN_TuneCUETP8M2T4_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_hdamp_down2": {
+        "ds": "/TT_hdampDOWN_TuneCUETP8M2T4_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_hdamp_up1": {
+        "ds": "/TT_hdampUP_TuneCUETP8M2T4_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_hdamp_up2": {
+        "ds": "/TT_hdampUP_TuneCUETP8M2T4_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_inc": {
+        "ds": "/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_isr_down1": {
+        "ds": "/TT_TuneCUETP8M2T4_13TeV-powheg-isrdown-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_isr_down2": {
+        "ds": "/TT_TuneCUETP8M2T4_13TeV-powheg-isrdown-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_isr_up": {
+        "ds": "/TT_TuneCUETP8M2T4_13TeV-powheg-isrup-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_sl": {
+        "ds": "/TTToSemilepton_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 150,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_tune_down1": {
+        "ds": "/TT_TuneCUETP8M2T4down_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_tune_down2": {
+        "ds": "/TT_TuneCUETP8M2T4down_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_tune_up1": {
+        "ds": "/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "TTbar_tune_up2": {
+        "ds": "/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttbb": {
+        "ds": "/ttbb_4FS_OpenLoops_13TeV-sherpa/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 20,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttw_wlnu1": {
+        "ds": "/TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext2-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttw_wlnu2": {
+        "ds": "/TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v3/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttw_wqq": {
+        "ds": "/TTWJetsToQQ_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 10,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttz_zllnunu1": {
+        "ds": "/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttz_zllnunu2": {
+        "ds": "/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext2-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttz_zqq": {
+        "ds": "/TTZToQQ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 8,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    }
+}

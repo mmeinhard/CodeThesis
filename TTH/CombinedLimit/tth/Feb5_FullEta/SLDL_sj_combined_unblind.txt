@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/work/mameinha/testcrab/CMSSW_10_2_15_patch2/bin/slc7_amd64_gcc700/combineCards.py", line 68, in <module>
+    file = open(fname, "r")
+IOError: [Errno 2] No such file or directory: 'shapes_sl_j5_tge4_sj_only__avgdeta_coarse.txt'

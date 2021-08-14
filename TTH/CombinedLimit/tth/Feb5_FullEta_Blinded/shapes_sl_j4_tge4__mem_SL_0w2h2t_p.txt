@@ -1,0 +1,100 @@
+imax 1
+jmax 15
+kmax *
+---------------
+shapes * sl_j4_tge4__mem_SL_0w2h2t_p sl_j4_tge4__mem_SL_0w2h2t_p.root $PROCESS__$CHANNEL $PROCESS__$CHANNEL__$SYSTEMATIC
+---------------
+bin	sl_j4_tge4__mem_SL_0w2h2t_p
+observation	-1
+---------------
+bin	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p	sl_j4_tge4__mem_SL_0w2h2t_p
+process	ttH_hcc	ttbarZ	ttH_hbb	ttbarPlusB	ttbarW	ttH_htt	singlet	ttH_hgg	ttbarPlusBBbar	ttbarPlus2B	ttbarOther	ttH_hgluglu	ttH_hww	ttH_hzz	zjets	ttbarPlusCCbar
+process	0	1	-2	3	4	-5	6	-7	8	9	10	-11	-12	-13	14	15
+rate	0.0355593597193	6.21645209676	14.1981292878	82.7765680791	0.737649820145	0.0439948600576	22.2357621576	0.0018267191202	130.886983289	31.3212624989	170.366839597	0.0345268160681	0.0891234390549	0.056189768548	2.17017933993	86.7529639762
+---------------
+CMS_btag_cferr1	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_btag_cferr2	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_btag_hf	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_btag_hfstats1	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_btag_hfstats2	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_btag_lf	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_btag_lfstats1	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_btag_lfstats2	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_effTrigger_dl	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_effTrigger_e	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_effTrigger_m	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_eff_e	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_eff_m	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_res_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleAbsoluteMPFBias_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleAbsoluteScale_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleAbsoluteStat_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleFlavorQCD_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleFragmentation_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scalePileUpDataMC_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scalePileUpPtBB_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scalePileUpPtEC1_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scalePileUpPtRef_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleRelativeBal_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleRelativeFSR_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleRelativeJEREC1_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleRelativePtBB_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleRelativePtEC1_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleRelativeStatEC_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleRelativeStatFSR_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleSinglePionECAL_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleSinglePionHCAL_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_scaleTimePtEta_j	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_ttHbb_FSR_ttbarOther	 shape 	-	-	-	-	-	-	-	-	-	-	1.0	-	-	-	-	-	
+CMS_ttHbb_FSR_ttbarPlus2B	 shape 	-	-	-	-	-	-	-	-	-	1.0	-	-	-	-	-	-	
+CMS_ttHbb_FSR_ttbarPlusB	 shape 	-	-	-	1.0	-	-	-	-	-	-	-	-	-	-	-	-	
+CMS_ttHbb_FSR_ttbarPlusBBbar	 shape 	-	-	-	-	-	-	-	-	1.0	-	-	-	-	-	-	-	
+CMS_ttHbb_FSR_ttbarPlusCCbar	 shape 	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1.0	
+CMS_ttHbb_ISR_ttbarOther	 shape 	-	-	-	-	-	-	-	-	-	-	1.0	-	-	-	-	-	
+CMS_ttHbb_ISR_ttbarPlus2B	 shape 	-	-	-	-	-	-	-	-	-	1.0	-	-	-	-	-	-	
+CMS_ttHbb_ISR_ttbarPlusB	 shape 	-	-	-	1.0	-	-	-	-	-	-	-	-	-	-	-	-	
+CMS_ttHbb_ISR_ttbarPlusBBbar	 shape 	-	-	-	-	-	-	-	-	1.0	-	-	-	-	-	-	-	
+CMS_ttHbb_ISR_ttbarPlusCCbar	 shape 	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1.0	
+CMS_ttHbb_L1PreFiring	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_ttHbb_PDF	 shape 	-	-	-	1.0	-	-	-	-	1.0	1.0	1.0	-	-	-	-	1.0	
+CMS_ttHbb_PU	 shape 	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+CMS_ttHbb_scaleMuF	 shape 	-	-	-	1.0	-	-	-	-	1.0	1.0	1.0	-	-	-	-	1.0	
+CMS_ttHbb_scaleMuR	 shape 	-	-	-	1.0	-	-	-	-	1.0	1.0	1.0	-	-	-	-	1.0	
+QCDscale_V	 lnN 	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1.01	-	
+QCDscale_t	 lnN 	-	-	-	-	-	-	0.98/1.03	-	-	-	-	-	-	-	-	-	
+QCDscale_ttH	 lnN 	0.908/1.058	-	0.908/1.058	-	-	0.908/1.058	-	0.908/1.058	-	-	-	0.908/1.058	0.908/1.058	0.908/1.058	-	-	
+QCDscale_ttbar	 lnN 	-	0.88/1.1	-	0.96/1.02	0.88/1.13	-	-	-	0.96/1.02	0.96/1.02	0.96/1.02	-	-	-	-	0.96/1.02	
+lumi_13TeV	 lnN 	1.023	1.023	1.023	1.023	1.023	1.023	1.023	1.023	1.023	1.023	1.023	1.023	1.023	1.023	1.023	1.023	
+pdf_Higgs_ttH	 lnN 	1.036	-	1.036	-	-	1.036	-	1.036	-	-	-	1.036	1.036	1.036	-	-	
+pdf_gg	 lnN 	-	1.03	-	1.04	-	-	-	-	1.04	1.04	1.04	-	-	-	-	1.04	
+pdf_qg	 lnN 	-	-	-	-	-	-	1.03	-	-	-	-	-	-	-	-	-	
+pdf_qqbar	 lnN 	-	-	-	-	1.02	-	-	-	-	-	-	-	-	-	1.04	-	
+CMS_ttHbb_bgnorm_ttbarPlusBB rateParam * ttbarPlusB 1 [-5,5]
+CMS_ttHbb_bgnorm_ttbarPlusBB rateParam * ttbarPlus2B 1 [-5,5]
+CMS_ttHbb_bgnorm_ttbarPlusBB rateParam * ttbarPlusBBbar 1 [-5,5]
+CMS_ttHbb_bgnorm_ttbarPlusCCbar rateParam * ttbarPlusCCbar 1 [-5,5]
+CMS_ttHbb_HDAMP_ttbarOther       lnN   -  -  -  -  -  -  -  -  -  -  1.074/0.931 -  -  -  -  -  
+CMS_ttHbb_HDAMP_ttbarPlus2B      lnN   -  -  -  -  -  -  -  -  -  1.145/0.873 -  -  -  -  -  -  
+CMS_ttHbb_HDAMP_ttbarPlusB      lnN   -  -  -  1.125/0.889 -  -  -  -  -  -  -  -  -  -  -  -  
+CMS_ttHbb_HDAMP_ttbarPlusBBbar      lnN   -  -  -  -  -  -  -  -  1.114/0.898 -  -  -  -  -  -  -  
+CMS_ttHbb_HDAMP_ttbarPlusCCbar      lnN   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  1.136/0.88 
+CMS_ttHbb_UE_ttbarOther      lnN   -  -  -  -  -  -  -  -  -  -  1.129/0.885 -  -  -  -  -  
+CMS_ttHbb_UE_ttbarPlus2B      lnN   -  -  -  -  -  -  -  -  -  1.07/0.935 -  -  -  -  -  -  
+CMS_ttHbb_UE_ttbarPlusB      lnN   -  -  -  1.041/0.961 -  -  -  -  -  -  -  -  -  -  -  -  
+CMS_ttHbb_UE_ttbarPlusBBbar      lnN   -  -  -  -  -  -  -  -  1.064/0.94 -  -  -  -  -  -  -  
+CMS_ttHbb_UE_ttbarPlusCCbar      lnN   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  1.079/0.927 
+theory group = pdf_Higgs_ttH pdf_gg pdf_qg pdf_qqbar CMS_ttHbb_PDF QCDscale_ttH QCDscale_ttbar CMS_ttHbb_FSR_ttbarOther CMS_ttHbb_FSR_ttbarPlus2B CMS_ttHbb_FSR_ttbarPlusB CMS_ttHbb_FSR_ttbarPlusBBbar CMS_ttHbb_FSR_ttbarPlusCCbar CMS_ttHbb_ISR_ttbarOther CMS_ttHbb_ISR_ttbarPlus2B CMS_ttHbb_ISR_ttbarPlusB CMS_ttHbb_ISR_ttbarPlusBBbar CMS_ttHbb_ISR_ttbarPlusCCbar CMS_ttHbb_scaleMuF CMS_ttHbb_scaleMuR QCDscale_V QCDscale_t QCDscale_ttH QCDscale_ttbar
+syst group = CMS_res_j CMS_scaleAbsoluteMPFBias_j CMS_scaleAbsoluteScale_j CMS_scaleAbsoluteStat_j CMS_scaleFlavorQCD_j CMS_scaleFragmentation_j CMS_scalePileUpDataMC_j CMS_scalePileUpPtBB_j CMS_scalePileUpPtEC1_j CMS_scalePileUpPtRef_j CMS_scaleRelativeBal_j CMS_scaleRelativeFSR_j CMS_scaleRelativeJEREC1_j CMS_scaleRelativePtBB_j CMS_scaleRelativePtEC1_j CMS_scaleRelativeStatEC_j CMS_scaleRelativeStatFSR_j CMS_scaleSinglePionECAL_j CMS_scaleSinglePionHCAL_j CMS_scaleTimePtEta_j CMS_btag_cferr1 CMS_btag_cferr2 CMS_btag_hf CMS_btag_hfstats1 CMS_btag_hfstats2 CMS_btag_lf CMS_btag_lfstats1 CMS_btag_lfstats2 CMS_effTrigger_dl CMS_effTrigger_e CMS_effTrigger_m CMS_eff_e CMS_eff_m lumi_13TeV CMS_ttHbb_L1PreFiring CMS_ttHbb_PU pdf_Higgs_ttH pdf_gg pdf_qg pdf_qqbar CMS_ttHbb_PDF QCDscale_ttH QCDscale_ttbar CMS_ttHbb_FSR_ttbarOther CMS_ttHbb_FSR_ttbarPlus2B CMS_ttHbb_FSR_ttbarPlusB CMS_ttHbb_FSR_ttbarPlusBBbar CMS_ttHbb_FSR_ttbarPlusCCbar CMS_ttHbb_ISR_ttbarOther CMS_ttHbb_ISR_ttbarPlus2B CMS_ttHbb_ISR_ttbarPlusB CMS_ttHbb_ISR_ttbarPlusBBbar CMS_ttHbb_ISR_ttbarPlusCCbar CMS_ttHbb_scaleMuF CMS_ttHbb_scaleMuR QCDscale_V QCDscale_t QCDscale_ttH QCDscale_ttbar
+QCDscale group = QCDscale_ttH QCDscale_ttbar
+misc group = CMS_effTrigger_dl CMS_effTrigger_e CMS_effTrigger_m CMS_eff_e CMS_eff_m lumi_13TeV CMS_ttHbb_L1PreFiring CMS_ttHbb_PU
+isrfsr group = CMS_ttHbb_FSR_ttbarOther CMS_ttHbb_FSR_ttbarPlus2B CMS_ttHbb_FSR_ttbarPlusB CMS_ttHbb_FSR_ttbarPlusBBbar CMS_ttHbb_FSR_ttbarPlusCCbar CMS_ttHbb_ISR_ttbarOther CMS_ttHbb_ISR_ttbarPlus2B CMS_ttHbb_ISR_ttbarPlusB CMS_ttHbb_ISR_ttbarPlusBBbar CMS_ttHbb_ISR_ttbarPlusCCbar
+scale group = CMS_ttHbb_scaleMuF CMS_ttHbb_scaleMuR QCDscale_V QCDscale_t QCDscale_ttH QCDscale_ttbar
+btag group = CMS_btag_cferr1 CMS_btag_cferr2 CMS_btag_hf CMS_btag_hfstats1 CMS_btag_hfstats2 CMS_btag_lf CMS_btag_lfstats1 CMS_btag_lfstats2
+jec group = CMS_res_j CMS_scaleAbsoluteMPFBias_j CMS_scaleAbsoluteScale_j CMS_scaleAbsoluteStat_j CMS_scaleFlavorQCD_j CMS_scaleFragmentation_j CMS_scalePileUpDataMC_j CMS_scalePileUpPtBB_j CMS_scalePileUpPtEC1_j CMS_scalePileUpPtRef_j CMS_scaleRelativeBal_j CMS_scaleRelativeFSR_j CMS_scaleRelativeJEREC1_j CMS_scaleRelativePtBB_j CMS_scaleRelativePtEC1_j CMS_scaleRelativeStatEC_j CMS_scaleRelativeStatFSR_j CMS_scaleSinglePionECAL_j CMS_scaleSinglePionHCAL_j CMS_scaleTimePtEta_j
+bgnorm group = 
+exp group = CMS_res_j CMS_scaleAbsoluteMPFBias_j CMS_scaleAbsoluteScale_j CMS_scaleAbsoluteStat_j CMS_scaleFlavorQCD_j CMS_scaleFragmentation_j CMS_scalePileUpDataMC_j CMS_scalePileUpPtBB_j CMS_scalePileUpPtEC1_j CMS_scalePileUpPtRef_j CMS_scaleRelativeBal_j CMS_scaleRelativeFSR_j CMS_scaleRelativeJEREC1_j CMS_scaleRelativePtBB_j CMS_scaleRelativePtEC1_j CMS_scaleRelativeStatEC_j CMS_scaleRelativeStatFSR_j CMS_scaleSinglePionECAL_j CMS_scaleSinglePionHCAL_j CMS_scaleTimePtEta_j CMS_btag_cferr1 CMS_btag_cferr2 CMS_btag_hf CMS_btag_hfstats1 CMS_btag_hfstats2 CMS_btag_lf CMS_btag_lfstats1 CMS_btag_lfstats2 CMS_effTrigger_dl CMS_effTrigger_e CMS_effTrigger_m CMS_eff_e CMS_eff_m lumi_13TeV CMS_ttHbb_L1PreFiring CMS_ttHbb_PU
+hdampue group = 
+pdf group = pdf_Higgs_ttH pdf_gg pdf_qg pdf_qqbar CMS_ttHbb_PDF
+* autoMCStats 0 0 1
+# execute with
+# combine -n sl_j4_tge4 -M Asymptotic -t -1 shapes_sl_j4_tge4__mem_SL_0w2h2t_p.txt

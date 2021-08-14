@@ -1,0 +1,73 @@
+{
+    "QCD200to300_2017": {
+        "ds": "/QCD_HT200to300_TuneCP5_13TeV-madgraph-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v2/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 35,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "QCD300to500_2017": {
+        "ds": "/QCD_HT300to500_TuneCP5_13TeV-madgraph-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 35,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "QCD500to700_2017": {
+        "ds": "/QCD_HT500to700_TuneCP5_13TeV-madgraph-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v2/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 36,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "QCD700to1000_2017": {
+        "ds": "/QCD_HT700to1000_TuneCP5_13TeV-madgraph-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 35,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "QCD1000to1500_2017": {
+        "ds": "/QCD_HT1000to1500_TuneCP5_13TeV-madgraph-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 16,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "QCD1500to2000_2017": {
+        "ds": "/QCD_HT1500to2000_TuneCP5_13TeV-madgraph-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_old_pmx_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 16,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "QCD2000toInf_2017": {
+        "ds": "/QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_old_pmx_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 14,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+
+}

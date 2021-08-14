@@ -1,0 +1,4 @@
+[QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC3eef8bd0a488/QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8/job_9_out.root = 4082
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC3eef8bd0a488/QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8/job_8_out.root = 8157
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC3eef8bd0a488/QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8/job_7_out.root = 5635

@@ -1,0 +1,2 @@
+[TT_TuneCUETP8M2T4_13TeV-powheg-pythia8]
+/mnt/t3nfs01/data01/shome/koschwei/nanoAOD/ttHDev/ttbar_92X_10k.root = 10000

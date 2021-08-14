@@ -1,0 +1,2 @@
+[WZ_TuneCP5_13TeV-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCf8c94f9cb8a3/WZ_TuneCP5_13TeV-pythia8/job_2_out.root = 720

@@ -1,0 +1,21 @@
+{
+    "ttHTobb": {
+        "ds": "/ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8/RunIIAutumn18NanoAODv4-Nano14Dec2018_102X_upgrade2018_realistic_v16-v1/NANOAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_withME.py",
+        "perjob": 1,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : True
+    },
+    "ttHToNonbb": {
+        "ds": "/ttHToNonbb_M125_TuneCP5_13TeV-powheg-pythia8/RunIIAutumn18NanoAODv4-Nano14Dec2018_102X_upgrade2018_realistic_v16-v1/NANOAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_withME.py",
+        "perjob": 5,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : True
+    },
+}
+

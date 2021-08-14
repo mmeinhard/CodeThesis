@@ -1,0 +1,2 @@
+[ZZ_TuneCP5_13TeV-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC84d357caddb1/ZZ_TuneCP5_13TeV-pythia8/job_465_out.root = 626

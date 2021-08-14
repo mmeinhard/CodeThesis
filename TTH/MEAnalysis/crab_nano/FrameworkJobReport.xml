@@ -1,0 +1,50 @@
+<FrameworkJobReport>
+    <ReadBranches>
+    </ReadBranches>
+    <PerformanceReport>
+      <PerformanceSummary Metric="StorageStatistics">
+        <Metric Name="Parameter-untracked-bool-enabled" Value="true"/>
+        <Metric Name="Parameter-untracked-bool-stats" Value="true"/>
+        <Metric Name="Parameter-untracked-string-cacheHint" Value="application-only"/>
+        <Metric Name="Parameter-untracked-string-readHint" Value="auto-detect"/>
+        <Metric Name="ROOT-tfile-read-totalMegabytes" Value="0"/>
+        <Metric Name="ROOT-tfile-write-totalMegabytes" Value="0"/>
+      </PerformanceSummary>
+    </PerformanceReport>
+    
+    <GeneratorInfo>
+    </GeneratorInfo>
+
+        <InputFile>
+        <LFN>/store/mc/RunIIAutumn18NanoAODv4/ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/Nano14Dec2018_102X_upgrade2018_realistic_v16-v1/30000/F5EF6FF0-B722-A544-AFCB-5F125A8409E3.root</LFN>
+        <PFN></PFN>
+        <Catalog></Catalog>
+        <InputType>primaryFiles</InputType>
+        <ModuleLabel>source</ModuleLabel>
+        <GUID></GUID>
+        <InputSourceClass>PoolSource</InputSourceClass>
+        <EventsRead>750000</EventsRead>
+        <Runs>
+        <Run ID="1">
+            <LumiSection ID="3141"/>
+                </Run>
+        </Runs>
+        </InputFile>
+        
+    <File>
+    <LFN></LFN>
+    <PFN>tree.root</PFN>
+    <Catalog></Catalog>
+    <ModuleLabel>NANO</ModuleLabel>
+    <Runs>
+    <Run ID="1">
+        <LumiSection ID="3141"/>
+            </Run>
+    </Runs>
+    <GUID></GUID>
+    <OutputModuleClass>PoolOutputModule</OutputModuleClass>
+    <TotalEvents>11842</TotalEvents>
+    <BranchHash>dc90308e392b2fa1e0eff46acbfa24bc</BranchHash>
+    </File>
+    
+    </FrameworkJobReport>

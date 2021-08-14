@@ -1,0 +1,6 @@
+[Delphes_ttH]
+file:///scratch/musella/powheg_ttH/delphes_0.root = 720000
+file:///scratch/musella/powheg_ttH/delphes_1.root = 1080000
+file:///scratch/musella/powheg_ttH/delphes_2.root = 400000
+file:///scratch/musella/powheg_ttH/delphes_3.root = 720000
+file:///scratch/musella/powheg_ttH/delphes_4.root = 800000

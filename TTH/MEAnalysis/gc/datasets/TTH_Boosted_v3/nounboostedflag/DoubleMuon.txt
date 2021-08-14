@@ -1,0 +1,22 @@
+[DoubleMuon]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_62_out.root = 4928
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_45_out.root = 8917
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_47_out.root = 8919
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_43_out.root = 8837
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_42_out.root = 8162
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_46_out.root = 8971
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_61_out.root = 9396
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_44_out.root = 8394
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_48_out.root = 8040
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_60_out.root = 8997
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_59_out.root = 9194
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_58_out.root = 8932
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_57_out.root = 8347
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_56_out.root = 8202
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_55_out.root = 8250
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_54_out.root = 8146
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_53_out.root = 8383
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_52_out.root = 8300
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_51_out.root = 8584
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_50_out.root = 8426
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleMuon/job_49_out.root = 7833

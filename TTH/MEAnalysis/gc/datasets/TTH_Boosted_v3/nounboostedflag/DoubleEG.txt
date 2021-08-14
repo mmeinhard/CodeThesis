@@ -1,0 +1,22 @@
+[DoubleEG]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_20_out.root = 1948
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_19_out.root = 3658
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_17_out.root = 3987
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_15_out.root = 3740
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_18_out.root = 4059
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_13_out.root = 3805
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_14_out.root = 3993
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_16_out.root = 3907
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_12_out.root = 3779
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_9_out.root = 3554
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_11_out.root = 3605
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_8_out.root = 3900
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_10_out.root = 3920
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_7_out.root = 4272
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_6_out.root = 1822
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_5_out.root = 3403
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_4_out.root = 3808
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_3_out.root = 3860
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_2_out.root = 3848
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_1_out.root = 3812
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GCbbc532f8bdba/DoubleEG/job_0_out.root = 2768

@@ -1,0 +1,24 @@
+[TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_528_out.root = 5826
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_540_out.root = 6209
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_537_out.root = 5814
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_538_out.root = 6125
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_532_out.root = 6676
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_531_out.root = 6752
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_536_out.root = 6348
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_539_out.root = 6330
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_535_out.root = 6400
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_530_out.root = 6703
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_529_out.root = 6515
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_534_out.root = 6485
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_533_out.root = 8368
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_527_out.root = 5946
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_526_out.root = 5897
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_525_out.root = 6392
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_524_out.root = 6701
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_523_out.root = 6225
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_522_out.root = 6233
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_521_out.root = 4784
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_543_out.root = 4083
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_542_out.root = 6536
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0606a21733c0/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/job_541_out.root = 6289

@@ -1,0 +1,15 @@
+#80X w/ full workflow
+
+export FILE_NAMES="root://cms-xrd-global.cern.ch//store/mc/RunIISummer16MiniAODv2/ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/50000/5AA026C8-FDC6-E611-B2A2-C81F66DCFE01.root root://cms-xrd-global.cern.ch//store/mc/RunIISummer16MiniAODv2/ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/50000/46D9A6AC-5FC7-E611-9A70-001E674FB063.root"
+export SKIP_EVENTS=0
+export MAX_EVENTS=100
+
+--> Run: ./heppy_crab_script.sh --local
+
+#80X from nanoAOD
+ export FILE_NAMES=root://t3dcachedb03.psi.ch/pnfs/psi.ch/cms/trivcat//store/user/jpata/NanoCrabProdXmas/ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/NanoCrabXmasRunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asym___heIV_v6-v1__374/171221_132119/0000/nano_1.root
+export SKIP_EVENTS=0
+export MAX_EVENTS=100
+
+--> Run: ./heppy_crab_script.sh --local --nostep1 #MaxEvents is not working. So it will process the full file :(
+

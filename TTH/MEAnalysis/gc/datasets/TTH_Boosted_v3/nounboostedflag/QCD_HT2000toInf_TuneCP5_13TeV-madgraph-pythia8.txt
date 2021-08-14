@@ -1,0 +1,6 @@
+[QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0bfdcfe049ea/QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8/job_18_out.root = 1465
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0bfdcfe049ea/QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8/job_17_out.root = 4170
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0bfdcfe049ea/QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8/job_14_out.root = 4028
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0bfdcfe049ea/QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8/job_15_out.root = 4129
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC0bfdcfe049ea/QCD_HT2000toInf_TuneCP5_13TeV-madgraph-pythia8/job_16_out.root = 4082

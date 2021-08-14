@@ -1,0 +1,6 @@
+[Delphes_ttH]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/creissel/tth/Jun04/Delphes_ttH/delphes_0.root = 720000
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/creissel/tth/Jun04/Delphes_ttH/delphes_1.root = 1080000
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/creissel/tth/Jun04/Delphes_ttH/delphes_2.root = 400000
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/creissel/tth/Jun04/Delphes_ttH/delphes_3.root = 720000
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/creissel/tth/Jun04/Delphes_ttH/delphes_4.root = 800000

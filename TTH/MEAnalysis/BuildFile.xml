@@ -1,0 +1,10 @@
+<use   name="root"/>
+<use   name="LHAPDF"/>
+<use   name="CondFormats/BTauObjects"/>
+<use   name="CondTools/BTau"/>
+<use   name="rootgraphics"/>
+<use   name="classlib"/>
+<use   name="boost"/>
+<export>
+  <lib   name="1"/>
+</export>

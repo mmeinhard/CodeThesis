@@ -1,0 +1,6 @@
+<use   name="root"/>
+<use   name="rootcore"/>
+<use   name="rootmath"/>
+<use   name="TTH/MEAnalysis"/>
+<bin name="evt_test" file="evt_test.cc"></bin>
+<Flags CXXFLAGS="-g -O0"/>

@@ -1,0 +1,13 @@
+[TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_305_out.root = 30755
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_312_out.root = 43343
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_306_out.root = 45535
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_313_out.root = 43232
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_308_out.root = 43746
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_310_out.root = 44003
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_311_out.root = 48139
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_314_out.root = 45609
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_309_out.root = 45350
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_307_out.root = 49629
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_316_out.root = 43073
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_315_out.root = 45285

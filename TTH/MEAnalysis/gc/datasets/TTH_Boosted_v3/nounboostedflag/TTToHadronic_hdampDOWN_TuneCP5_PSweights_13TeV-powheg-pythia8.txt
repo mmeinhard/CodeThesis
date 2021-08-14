@@ -1,0 +1,6 @@
+[TTToHadronic_hdampDOWN_TuneCP5_PSweights_13TeV-powheg-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC2a1f5531dfaa/TTToHadronic_hdampDOWN_TuneCP5_PSweights_13TeV-powheg-pythia8/job_9_out.root = 360
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC2a1f5531dfaa/TTToHadronic_hdampDOWN_TuneCP5_PSweights_13TeV-powheg-pythia8/job_8_out.root = 374
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC2a1f5531dfaa/TTToHadronic_hdampDOWN_TuneCP5_PSweights_13TeV-powheg-pythia8/job_7_out.root = 345
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC2a1f5531dfaa/TTToHadronic_hdampDOWN_TuneCP5_PSweights_13TeV-powheg-pythia8/job_6_out.root = 364
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC2a1f5531dfaa/TTToHadronic_hdampDOWN_TuneCP5_PSweights_13TeV-powheg-pythia8/job_5_out.root = 326

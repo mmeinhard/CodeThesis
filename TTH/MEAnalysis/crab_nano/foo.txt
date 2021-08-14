@@ -1,0 +1,1 @@
+[?1049h[1;56r(B[m[4l[?7h[H[2JEvery 5.0s: ps --pid=67840 u[1;182HThu Apr 23 18:17:07 2020[3;1HUSER	   PID %CPU %MEM    VSZ   RSS TTY[48GSTAT START   TIME COMMAND[56;205H[56;1H[?1049l[?1l>

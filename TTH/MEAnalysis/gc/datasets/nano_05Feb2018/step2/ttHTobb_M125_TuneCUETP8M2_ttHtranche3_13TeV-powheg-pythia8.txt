@@ -1,0 +1,6 @@
+[ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/jpata/tth/meanalysis/GC4c83d6e13a7d/ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/140492F8-CF11-E811-B8D8-B083FECFC6ED.root = 789321
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/jpata/tth/meanalysis/GC4c83d6e13a7d/ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/6E79D4E7-9C11-E811-9913-0025904C6564.root = 931516
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/jpata/tth/meanalysis/GC4c83d6e13a7d/ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/7280849F-CF11-E811-9FA2-0CC47AF9B496.root = 724507
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/jpata/tth/meanalysis/GC4c83d6e13a7d/ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/A661A40A-D011-E811-A0A0-000101000933.root = 1074341
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/jpata/tth/meanalysis/GC4c83d6e13a7d/ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/F668CFCE-CF11-E811-929C-0CC47AD991FA.root = 326307

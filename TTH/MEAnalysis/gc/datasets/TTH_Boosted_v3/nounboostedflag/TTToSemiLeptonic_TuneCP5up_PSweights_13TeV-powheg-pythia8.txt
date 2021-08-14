@@ -1,0 +1,2 @@
+[TTToSemiLeptonic_TuneCP5up_PSweights_13TeV-powheg-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC2a1f5531dfaa/TTToSemiLeptonic_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_0_out.root = 1322943

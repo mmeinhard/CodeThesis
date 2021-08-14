@@ -1,0 +1,3 @@
+[TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC84d357caddb1/TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_318_out.root = 17792
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC84d357caddb1/TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/job_317_out.root = 29043

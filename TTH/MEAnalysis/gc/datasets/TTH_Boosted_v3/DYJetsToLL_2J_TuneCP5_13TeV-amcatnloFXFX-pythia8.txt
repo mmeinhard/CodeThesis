@@ -1,0 +1,20 @@
+[DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_183_out.root = 1707
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_184_out.root = 1671
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_182_out.root = 1813
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_173_out.root = 1762
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_175_out.root = 1826
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_174_out.root = 1799
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_179_out.root = 1674
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_180_out.root = 1771
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_181_out.root = 1789
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_177_out.root = 1699
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_176_out.root = 1730
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_178_out.root = 1846
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_172_out.root = 1875
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_171_out.root = 1821
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_170_out.root = 1797
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_169_out.root = 1787
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_168_out.root = 1749
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_167_out.root = 1712
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/withunboostedflag/TTH_Boosted_v3/GC2b974a4ba058/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/job_166_out.root = 1749

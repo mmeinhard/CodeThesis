@@ -1,0 +1,11 @@
+[datakit]
+root://t3dcachedb.psi.ch/pnfs/psi.ch/cms/trivcat/store/user/mameinha/datakit/SingleMuon2017B.root = 12754
+root://t3dcachedb.psi.ch/pnfs/psi.ch/cms/trivcat/store/user/mameinha/datakit/SingleMuon2017C.root = 25652
+root://t3dcachedb.psi.ch/pnfs/psi.ch/cms/trivcat/store/user/mameinha/datakit/SingleMuon2017D.root = 11857
+root://t3dcachedb.psi.ch/pnfs/psi.ch/cms/trivcat/store/user/mameinha/datakit/SingleMuon2017E.root = 25280
+root://t3dcachedb.psi.ch/pnfs/psi.ch/cms/trivcat/store/user/mameinha/datakit/SingleMuon2017F.root = 31054
+root://t3dcachedb.psi.ch/pnfs/psi.ch/cms/trivcat/store/user/mameinha/datakit/SingleElectron2017B.root = 8090
+root://t3dcachedb.psi.ch/pnfs/psi.ch/cms/trivcat/store/user/mameinha/datakit/SingleElectron2017C.root = 18028
+root://t3dcachedb.psi.ch/pnfs/psi.ch/cms/trivcat/store/user/mameinha/datakit/SingleElectron2017D.root = 8188
+root://t3dcachedb.psi.ch/pnfs/psi.ch/cms/trivcat/store/user/mameinha/datakit/SingleElectron2017E.root = 17378
+root://t3dcachedb.psi.ch/pnfs/psi.ch/cms/trivcat/store/user/mameinha/datakit/SingleElectron2017F.root = 19608

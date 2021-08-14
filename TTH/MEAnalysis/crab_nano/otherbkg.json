@@ -1,0 +1,380 @@
+{
+    "WJetsToQQ180": {
+        "ds": "/WJetsToQQ_HT180_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 150,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "WJetsToQQ600": {
+        "ds": "/WJetsToQQ_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "WWTo4Q": {
+        "ds": "/WWTo4Q_13TeV-powheg/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ZJetsToQQ600": {
+        "ds": "/ZJetsToQQ_HT600toInf_13TeV-madgraph/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 100,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ZZTo4Q": {
+        "ds": "/ZZTo4Q_13TeV_amcatnloFXFX_madspin_pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": 25000,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "dy_10_50": {
+        "ds": "/DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 80,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "dy_50_inf1": {
+        "ds": "/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v2/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 80,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "dy_50_inf2": {
+        "ds": "/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext2-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 80,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "st_s": {
+        "ds": "/ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "st_s_inc": {
+        "ds": "/ST_s-channel_4f_InclusiveDecays_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "st_t": {
+        "ds": "/ST_t-channel_top_4f_inclusiveDecays_TuneCUETP8M2T4_13TeV-powhegV2-madspin/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "st_tw": {
+        "ds": "/ST_tW_top_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M2T4/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "stbar_t": {
+        "ds": "/ST_t-channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4_13TeV-powhegV2-madspin/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "stbar_tw": {
+        "ds": "/ST_tW_antitop_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M2T4/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets": {
+        "ds": "/WJetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets100_1": {
+        "ds": "/WJetsToLNu_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 100,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets100_2": {
+        "ds": "/WJetsToLNu_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext2-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 100,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets1200": {
+        "ds": "/WJetsToLNu_HT-1200To2500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets200_1": {
+        "ds": "/WJetsToLNu_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 100,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets200_2": {
+        "ds": "/WJetsToLNu_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext2-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 100,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets2500": {
+        "ds": "/WJetsToLNu_HT-2500ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets400_1": {
+        "ds": "/WJetsToLNu_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets400_2": {
+        "ds": "/WJetsToLNu_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets600": {
+        "ds": "/WJetsToLNu_HT-600To800_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 50,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wjets800": {
+        "ds": "/WJetsToLNu_HT-800To1200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ww1": {
+        "ds": "/WW_TuneCUETP8M1_13TeV-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ww2": {
+        "ds": "/WW_TuneCUETP8M1_13TeV-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wz1": {
+        "ds": "/WZ_TuneCUETP8M1_13TeV-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 100,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "wz2": {
+        "ds": "/WZ_TuneCUETP8M1_13TeV-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 100,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m50_100": {
+        "ds": "/DYJetsToLL_M-50_HT-100to200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m50_1200": {
+        "ds": "/DYJetsToLL_M-50_HT-1200to2500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m50_200": {
+        "ds": "/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m50_2500": {
+        "ds": "/DYJetsToLL_M-50_HT-2500toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m50_400": {
+        "ds": "/DYJetsToLL_M-50_HT-400to600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m50_600": {
+        "ds": "/DYJetsToLL_M-50_HT-600to800_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v2/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m50_800": {
+        "ds": "/DYJetsToLL_M-50_HT-800to1200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m5_100": {
+        "ds": "/DYJetsToLL_M-5to50_HT-100to200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m5_200": {
+        "ds": "/DYJetsToLL_M-5to50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m5_400": {
+        "ds": "/DYJetsToLL_M-5to50_HT-400to600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zjets_m5_600": {
+        "ds": "/DYJetsToLL_M-5to50_HT-600toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zz1": {
+        "ds": "/ZZ_TuneCUETP8M1_13TeV-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "zz2": {
+        "ds": "/ZZ_TuneCUETP8M1_13TeV-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    }
+}

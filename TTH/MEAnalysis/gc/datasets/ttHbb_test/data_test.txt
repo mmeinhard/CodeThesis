@@ -1,0 +1,2 @@
+[data_test]
+/work/mameinha/TTH/CMSSW_10_2_15_patch2/src/PhysicsTools/NanoAODTools/myNanoProdData2017_NANO_Skim.root = 1000

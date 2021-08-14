@@ -1,0 +1,2 @@
+[SingleMuon]
+/mnt/t3nfs01/data01/shome/koschwei/nanoAOD/ttHDev/SingleMuon_92X_10k.root = 10000

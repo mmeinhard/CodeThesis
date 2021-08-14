@@ -1,0 +1,20 @@
+{
+    "ttHToNonbb": {
+        "ds": "/ttHToNonbb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 20,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    },
+    "ttHTobb": {
+        "ds": "/ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 10,
+        "runtime": 10,
+        "script": "heppy_crab_script.sh",
+        "isNANOAOD" : False
+    }
+}

@@ -1,0 +1,2 @@
+[ttHTobb_M125_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8]
+/mnt/t3nfs01/data01/shome/koschwei/nanoAOD/ttHDev/ttH_92X_10k.root = 10000

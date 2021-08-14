@@ -1,0 +1,122 @@
+{
+    "TTbar_sl_syst_HDAMP_up_2017": {
+        "ds": "/TTToSemiLeptonic_hdampUP_TuneCP5_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v2/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 7,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_sl_syst_HDAMP_down_2017": {
+        "ds": "/TTToSemiLeptonic_hdampDOWN_TuneCP5_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v2/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_sl_syst_UE_up_2017": {
+        "ds": "/TTToSemiLeptonic_TuneCP5up_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v2/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_sl_syst_UE_down_2017": {
+        "ds": "/TTToSemiLeptonic_TuneCP5down_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v2/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 40,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_dl_syst_HDAMP_up_2017": {
+        "ds": "/TTTo2L2Nu_hdampUP_TuneCP5_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 55,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_dl_syst_HDAMP_down_2017": {
+        "ds": "/TTTo2L2Nu_hdampDOWN_TuneCP5_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 55,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_dl_syst_UE_up_2017": {
+        "ds": "/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 55,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_dl_syst_UE_down_2017": {
+        "ds": "/TTTo2L2Nu_TuneCP5down_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 55,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_had_syst_HDAMP_up_2017": {
+        "ds": "/TTToHadronic_hdampUP_TuneCP5_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v2/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 7,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_had_syst_HDAMP_down_2017": {
+        "ds": "/TTToHadronic_hdampDOWN_TuneCP5_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 8,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_had_syst_UE_up_2017": {
+        "ds": "/TTToHadronic_TuneCP5up_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v1/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 7,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+    "TTbar_had_syst_UE_down_2017": {
+        "ds": "/TTToHadronic_TuneCP5down_PSweights_13TeV-powheg-pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_new_pmx_94X_mc2017_realistic_v14-v2/MINIAODSIM",
+        "maxlumis": -1,
+        "mem_cfg": "cfg_noME.py",
+        "perjob": 8,
+        "runtime": 40,
+        "script": "heppy_crab_script.sh",
+        "memory" : null,
+        "isNANOAOD" : False
+    },
+}

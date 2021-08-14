@@ -1,0 +1,20 @@
+[ZZ_TuneCP5_13TeV-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_10.root = 89185
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_11.root = 91348
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_13.root = 88464
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_14.root = 89185
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_1.root = 89906
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_15.root = 89185
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_16.root = 88464
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_3.root = 89906
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_17.root = 91348
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_4.root = 89906
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_18.root = 87743
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_5.root = 90627
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_19.root = 89906
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_6.root = 88464
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_7.root = 89905
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_8.root = 89906
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_9.root = 91348
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_21.root = 87743
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/may13_v1/ZZ_TuneCP5_13TeV-pythia8/may13_v1/200513_074427/0000/tree_22.root = 42953

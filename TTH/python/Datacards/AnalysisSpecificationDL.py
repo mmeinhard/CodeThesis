@@ -1,0 +1,103 @@
+from TTH.Plotting.Datacards.AnalysisSpecificationSL import data_samples, base_samples, ttjets_powheg, signal_processes, common_shape_uncertainties, common_scale_uncertainties, scale_uncertainties, make_control_categories, input_file
+from TTH.Plotting.Datacards.AnalysisSpecificationClasses import Sample, Category, Analysis, make_csv_categories_abstract, make_csv_groups_abstract
+
+dl_data = [data_samples["DoubleMuon"], data_samples["MuonEG"], data_samples["DoubleEG"]]
+
+dl_categories = [
+    # >= 4 jets, >= 4 tags
+    Category(
+        name = "dl_jge4_tge4",
+        cuts = [("numJets", 4, 8), ("nBDeepCSVM", 4, 8)],
+        samples = base_samples + ttjets_powheg,
+        data_samples = dl_data,
+        signal_processes = signal_processes,
+        common_shape_uncertainties = common_shape_uncertainties,
+        common_scale_uncertainties = common_scale_uncertainties,
+        scale_uncertainties = scale_uncertainties,
+        discriminator = "mem_DL_0w2h2t_p",
+        src_histogram = "dl/sparse"
+    ),
+    
+    # >= 4 jets, == 3 tags
+    Category(
+        name = "dl_jge4_t3",
+        cuts = [("numJets", 4, 8), ("nBDeepCSVM", 3, 4)],
+        samples = base_samples + ttjets_powheg,
+        data_samples = dl_data,
+        signal_processes = signal_processes,
+        common_shape_uncertainties = common_shape_uncertainties,
+        common_scale_uncertainties = common_scale_uncertainties,
+        scale_uncertainties = scale_uncertainties,
+        discriminator = "mem_DL_0w2h2t_p",
+        src_histogram = "dl/sparse"
+    ),
+    
+    # >= 4 jets, == 2 tags
+    Category(
+        name = "dl_jge4_t2",
+        cuts = [("numJets", 4, 8), ("nBDeepCSVM", 2, 3)],
+        samples = base_samples + ttjets_powheg,
+        data_samples = dl_data,
+        signal_processes = signal_processes,
+        common_shape_uncertainties = common_shape_uncertainties,
+        common_scale_uncertainties = common_scale_uncertainties,
+        scale_uncertainties = scale_uncertainties,
+        discriminator = "mem_DL_0w2h2t_p",
+        src_histogram = "dl/sparse"
+    ),
+    
+    # == 3 jets, == 3 tags
+    Category(
+        name = "dl_j3_t3",
+        cuts = [("numJets", 3, 4), ("nBDeepCSVM", 3, 4)],
+        samples = base_samples + ttjets_powheg,
+        data_samples = dl_data,
+        signal_processes = signal_processes,
+        common_shape_uncertainties = common_shape_uncertainties,
+        common_scale_uncertainties = common_scale_uncertainties,
+        scale_uncertainties = scale_uncertainties,
+        discriminator = "mem_DL_0w2h2t_p",
+        src_histogram = "dl/sparse"
+    ),
+    
+    # == 3 jets, == 2 tags
+    Category(
+        name = "dl_j3_t2",
+        cuts = [("numJets", 3, 4), ("nBDeepCSVM", 2, 3)],
+        samples = base_samples + ttjets_powheg,
+        data_samples = dl_data,
+        signal_processes = signal_processes,
+        common_shape_uncertainties = common_shape_uncertainties,
+        common_scale_uncertainties = common_scale_uncertainties,
+        scale_uncertainties = scale_uncertainties,
+        discriminator = "mem_DL_0w2h2t_p",
+        src_histogram = "dl/sparse"
+    ),
+]
+
+all_cats = make_control_categories(dl_categories)
+
+analysis = Analysis(
+    samples = base_samples,
+    categories = all_cats,
+    sparse_input_file = input_file,
+    groups = {
+        "dl": dl_categories,
+    },
+    do_fake_data = True,
+    do_stat_variations = True
+)
+
+#add single-category groups
+for cat in dl_categories:
+    analysis.groups[cat.full_name] = [cat]
+
+analyses = {"DL" : analysis}
+
+def make_csv_categories():
+    return make_csv_categories_abstract(analyses)
+
+def make_csv_groups():
+    return make_csv_groups_abstract(analyses)
+
+

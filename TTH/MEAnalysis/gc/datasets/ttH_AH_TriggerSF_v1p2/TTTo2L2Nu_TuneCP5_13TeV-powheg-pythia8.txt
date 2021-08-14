@@ -1,0 +1,19 @@
+[TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_15_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_16_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_14_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_17_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_13_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_12_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_9_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_11_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_8_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_10_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_7_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_6_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_5_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_4_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_3_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_2_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_1_out.root = 1
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/koschwei/tth/TriggerSF/v1p2/GC1acdca77eb71/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/job_0_out.root = 1

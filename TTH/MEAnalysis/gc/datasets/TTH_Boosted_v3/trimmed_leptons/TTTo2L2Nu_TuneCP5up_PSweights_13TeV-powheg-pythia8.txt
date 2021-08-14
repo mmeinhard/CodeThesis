@@ -1,0 +1,13 @@
+[TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8]
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2271_out.root = 246808
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2270_out.root = 259154
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2276_out.root = 258623
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2273_out.root = 259673
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2275_out.root = 258838
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2274_out.root = 258426
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2272_out.root = 261378
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2277_out.root = 258706
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2281_out.root = 130977
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2280_out.root = 253884
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2279_out.root = 261408
+root://t3dcachedb.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/mameinha/tth/trimmer/TTH_Boosted_v3/GC87f3c252a1d4/TTTo2L2Nu_TuneCP5up_PSweights_13TeV-powheg-pythia8/job_2278_out.root = 260900
